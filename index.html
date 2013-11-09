@@ -257,11 +257,8 @@
 			<!-- End Arrow -->
 	</div>	
 	<!-- End Indent Section-->
-
-
-
+		
         <script src="scripts/1137e1f5.vendor.js"></script>
-
         
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
@@ -274,5 +271,23 @@
         </script>
 
         <script src="scripts/cb3b7412.main.js"></script>
+        <script>
+
+			$('.arrow').click(function() {
+	    		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+	        		|| location.hostname == this.hostname) {
+
+	        		var target = $(this.hash);
+	        		target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	           		if (target.length) {
+	             		$('html,body').animate({
+	                		 scrollTop: target.offset().top
+	            		}, 1000);
+	        	    	return false;
+	    	    	}
+		    	}
+			});
+
+		</script>
 </body>
 </html>
