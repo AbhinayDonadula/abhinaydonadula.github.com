@@ -11,11 +11,6 @@
         <meta name="viewport" content="width=device-width">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="stylesheet" href="styles/d67047b8.main.css">
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.0/normalize.css">
-		<link href='http://fonts.googleapis.com/css?family=Montserrat+Subrayada:700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Alegreya+SC:700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Salsa' rel='stylesheet' type='text/css'>
         <script src="scripts/vendor/f7f27360.modernizr.js"></script>
     </head>
     <body>
@@ -262,24 +257,7 @@
 
         <script src="scripts/1137e1f5.vendor.js"></script>
 
-        <script>
-
-			$('.arrow').click(function() {
-	    		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-	        		|| location.hostname == this.hostname) {
-
-	        		var target = $(this.hash);
-	        		target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-	           		if (target.length) {
-	             		$('html,body').animate({
-	                		 scrollTop: target.offset().top
-	            		}, 1000);
-	        	    	return false;
-	    	    	}
-		    	}
-			});
-
-	</script>
+        
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
