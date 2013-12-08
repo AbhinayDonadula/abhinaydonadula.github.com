@@ -25,7 +25,7 @@ body {
 	margin: 0 290px;
     width: 32px;
     height: 32px;
-    background: url("/images/print.png");
+    background: url("/images/a19c44f6.print.png");
     position: absolute;
 }
  
@@ -33,7 +33,7 @@ body {
 	margin: 0 230px;
     width: 32px;
     height: 32px;
-    background: url("/images/pdf.png");
+    background: url("/images/bf2e710c.pdf.png");
     position: absolute;
 }
 
@@ -41,6 +41,6 @@ body {
 	margin: 0 170px;
     width: 32px;
     height: 32px;
-    background: url("/images/word.png");
+    background: url("/images/86ef79cb.word.png");
     position: absolute;
 }
