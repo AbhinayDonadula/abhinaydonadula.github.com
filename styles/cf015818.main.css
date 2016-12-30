@@ -570,9 +570,7 @@ th {
         visibility: hidden
     }
 }
-div.user-options a,
-.special-checkbox.unchecked,
-.special-checkbox.checked {
+div.user-options a {
     position: fixed;
 }
 .special-checkbox.unchecked,
